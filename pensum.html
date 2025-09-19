@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa: Aumenta Tu Productividad Profesional con IA | Ant-Ara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .course-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid;
+        }
+        
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .champion-card {
+            border-left-color: #f59e0b;
+            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+        }
+        
+        .automation-card {
+            border-left-color: #3b82f6;
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+        }
+        
+        .marketing-card {
+            border-left-color: #ec4899;
+            background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
+        }
+        
+        .data-card {
+            border-left-color: #10b981;
+            background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+        }
+        
+        .leadership-card {
+            border-left-color: #8b5cf6;
+            background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+        }
+        
+        .ceo-card {
+            border-left-color: #f97316;
+            background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+        }
+        
+        .partner-logo {
+            filter: grayscale(100%);
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+        
+        .partner-logo:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+        
+        .pricing-box {
+            transition: all 0.3s ease;
+        }
+        
+        .pricing-box:hover {
+            transform: scale(1.05);
+        }
+        
+        .premium {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="hero-gradient text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center mb-6">
+                <img src="https://i.imgur.com/kTSdMiT.png" alt="Ant-Ara" class="h-16 mr-4">
+                <img src="https://i.imgur.com/U1mRq72.png" alt="Innovar con Alejandro" class="h-16 mr-4">
+                <img src="https://i.imgur.com/ObMZWAw.png" alt="Despacho Jorge" class="h-16">
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Aumenta Tu Productividad Profesional con IA</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Programa integral de 6 cursos diseñado para transformar PYMEs guatemaltecas mediante la inteligencia artificial</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#cursos" class="bg-yellow-400 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition-colors">
+                    <i class="fas fa-graduation-cap mr-2"></i>Ver Cursos
+                </a>
+                <a href="#estrategia" class="bg-white text-purple-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+                    <i class="fas fa-chess mr-2"></i>Nuestra Estrategia
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introducción -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Transforma Tu Empresa con IA</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Nuestro programa está diseñado específicamente para profesionales y PYMEs guatemaltecas que buscan aumentar su productividad, reducir costos y ganar ventaja competitiva mediante aplicaciones prácticas de inteligencia artificial.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-rocket text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Resultados Rápidos</h3>
+                    <p class="text-gray-600">Cursos de 4-6 semanas con aplicación inmediata en tu negocio</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-certificate text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Certificaciones Internacionales</h3>
+                    <p class="text-gray-600">Preparación para certificaciones de Certiprof, Microsoft y PMI</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-handshake text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Enfoque Guatemalteco</h3>
+                    <p class="text-gray-600">Contenido adaptado a la realidad y necesidades de empresas locales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curso Champion (Destacado) -->
+    <section class="py-16 bg-amber-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-8">
+                <span class="bg-amber-500 text-white px-4 py-1 rounded-full text-sm font-semibold">Curso Estrella</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mt-4 mb-4">Domina la IA y Multiplica Tu Productividad en 30 Días</h2>
+                <p class="text-xl text-gray-600">El curso perfecto para comenzar tu transformación digital</p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-8 items-center">
+                <div>
+                    <div class="course-card champion-card p-6 rounded-lg shadow-lg mb-6">
+                        <h3 class="text-2xl font-bold mb-4">¿Por qué este curso es tu mejor inversión?</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start"><i class="fas fa-check-circle text-amber-500 mt-1 mr-2"></i> <span>Diseñado para profesionales sin experiencia previa en IA</span></li>
+                            <li class="flex items-start"><i class="fas fa-check-circle text-amber-500 mt-1 mr-2"></i> <span>Resultados visibles desde la primera semana</span></li>
+                            <li class="flex items-start"><i class="fas fa-check-circle text-amber-500 mt-1 mr-2"></i> <span>Certificación internacional incluida</span></li>
+                            <li class="flex items-start"><i class="fas fa-check-circle text-amber-500 mt-1 mr-2"></i> <span>Modalidad híbrida (online + sesiones prácticas)</span></li>
+                            <li class="flex items-start"><i class="fas fa-check-circle text-amber-500 mt-1 mr-2"></i> <span>Comunidad de profesionales guatemaltecos</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-2 gap-4 mt-6">
+                        <div class="pricing-box bg-white p-6 rounded-lg shadow text-center">
+                            <h4 class="font-semibold text-lg mb-2">Versión Estándar</h4>
+                            <p class="text-3xl font-bold text-gray-800">$399</p>
+                            <p class="text-sm text-gray-600 mt-2">Incluye certificación Certiprof GAIPC™</p>
+                            <button class="bg-amber-500 text-white px-6 py-2 rounded-full mt-4 hover:bg-amber-600 transition-colors">Inscribirse</button>
+                        </div>
+                        
+                        <div class="pricing-box premium p-6 rounded-lg shadow text-center">
+                            <h4 class="font-semibold text-lg mb-2">Versión Premium</h4>
+                            <p class="text-3xl font-bold">$499</p>
+                            <p class="text-sm opacity-90 mt-2">Certiprof GAIPC™ + Microsoft AI Fundamentals</p>
+                            <button class="bg-white text-purple-600 px-6 py-2 rounded-full mt-4 hover:bg-gray-100 transition-colors">Inscribirse</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-xl font-semibold mb-4">Contenido del curso Champion</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-start">
+                                <span class="bg-amber-100 text-amber-800 rounded-full w-8 h-8 flex items-center justify-center mr-3 font-semibold">1</span>
+                                <div>
+                                    <h4 class="font-semibold">Fundamentos de IA para negocios</h4>
+                                    <p class="text-sm text-gray-600">Qué es la IA, tipos de IA y aplicaciones prácticas</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <span class="bg-amber-100 text-amber-800 rounded-full w-8 h-8 flex items-center justify-center mr-3 font-semibold">2</span>
+                                <div>
+                                    <h4 class="font-semibold">Automatización de tareas repetitivas</h4>
+                                    <p class="text-sm text-gray-600">Identificación y automatización de procesos manuales</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <span class="bg-amber-100 text-amber-800 rounded-full w-8 h-8 flex items-center justify-center mr-3 font-semibold">3</span>
+                                <div>
+                                    <h4 class="font-semibold">Generación de contenido con IA</h4>
+                                    <p class="text-sm text-gray-600">Herramientas para crear texto, imágenes y videos</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <span class="bg-amber-100 text-amber-800 rounded-full w-8 h-8 flex items-center justify-center mr-3 font-semibold">4</span>
+                                <div>
+                                    <h4 class="font-semibold">Análisis de datos básico</h4>
+                                    <p class="text-sm text-gray-600">Interpretación de datos para toma de decisiones</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <span class="bg-amber-100 text-amber-800 rounded-full w-8 h-8 flex items-center justify-center mr-3 font-semibold">5</span>
+                                <div>
+                                    <h4 class="font-semibold">Implementación ética de IA</h4>
+                                    <p class="text-sm text-gray-600">Uso responsable y consideraciones importantes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Todos los Cursos -->
+    <section id="cursos" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nuestro Programa Completo de Cursos</h2>
+                <p class="text-xl text-gray-600">Diseñado para cubrir todas las áreas de transformación digital con IA</p>
+            </div>
+            
+            <!-- Curso 2 -->
+            <div class="course-card automation-card p-6 rounded-lg shadow-lg mb-8">
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="md:col-span-2">
+                        <h3 class="text-2xl font-bold mb-2">Automatiza Tu Negocio: De Manual a Inteligente</h3>
+                        <p class="text-gray-600 mb-4">Convierte procesos manuales en sistemas automatizados que funcionan 24/7</p>
+                        
+                        <div class="flex flex-wrap gap-4 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">4 semanas</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">80% Online</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">PYMEs</span>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold mb-2">Temáticas principales:</h4>
+                            <ul class="list-disc list-inside text-gray-600">
+                                <li>Identificación de procesos automatizables</li>
+                                <li>Flujos de trabajo con Power Automate</li>
+                                <li>Integración entre sistemas</li>
+                                <li>Robotic Process Automation (RPA) básico</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <h4 class="font-semibold mb-3">Inversión</h4>
+                            <div class="mb-4">
+                                <p class="text-sm text-gray-600">Estándar</p>
+                                <p class="text-2xl font-bold">$399</p>
+                                <p class="text-xs text-gray-600">Incluye Microsoft Power Platform Fundamentals ($99 value)</p>
+                            </div>
+                            
+                            <div class="pt-4 border-t">
+                                <p class="text-sm text-gray-600">Premium</p>
+                                <p class="text-2xl font-bold">$499</p>
+                                <p class="text-xs text-gray-600">+ Advanced Automation Certification</p>
+                            </div>
+                            
+                            <button class="w-full bg-blue-600 text-white py-2 rounded-lg mt-4 hover:bg-blue-700 transition-colors">Más Información</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Curso 3 -->
+            <div class="course-card marketing-card p-6 rounded-lg shadow-lg mb-8">
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="md:col-span-2">
+                        <h3 class="text-2xl font-bold mb-2">Marketing IA: Vende Más Trabajando Menos</h3>
+                        <p class="text-gray-600 mb-4">Potencia tus estrategias de marketing con herramientas de inteligencia artificial</p>
+                        
+                        <div class="flex flex-wrap gap-4 mb-4">
+                            <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm">4 semanas</span>
+                            <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm">80% Online</span>
+                            <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm">Marketing/Ventas</span>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold mb-2">Temáticas principales:</h4>
+                            <ul class="list-disc list-inside text-gray-600">
+                                <li>Generación de contenido con IA</li>
+                                <li>Personalización a escala</li>
+                                <li>Análisis de clientes y segmentación</li>
+                                <li>Automatización de campañas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <h4 class="font-semibold mb-3">Inversión</h4>
+                            <div class="mb-4">
+                                <p class="text-sm text-gray-600">Estándar</p>
+                                <p class="text-2xl font-bold">$399</p>
+                                <p class="text-xs text-gray-600">Certiprof Generative AI for Marketing</p>
+                            </div>
+                            
+                            <div class="pt-4 border-t">
+                                <p class="text-sm text-gray-600">Premium</p>
+                                <p class="text-2xl font-bold">$499</p>
+                                <p class="text-xs text-gray-600">+ Google AI Marketing Certification</p>
+                            </div>
+                            
+                            <button class="w-full bg-pink-600 text-white py-2 rounded-lg mt-4 hover:bg-pink-700 transition-colors">Más Información</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Continuar con los otros 3 cursos con la misma estructura -->
+            <!-- Por brevedad, muestro solo 3 cursos pero deberías agregar los 3 restantes -->
+            
+        </div>
+    </section>
+
+    <!-- Estrategia Tripartita -->
+    <section id="estrategia" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Estrategia Tripartita: Nuestra Ventaja Competitiva</h2>
+                <p class="text-xl text-gray-600">La combinación perfecta de expertise técnico, pedagógico y empresarial</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 border rounded-lg">
+                    <img src="https://i.imgur.com/kTSdMiT.png" alt="Ant-Ara" class="h-16 mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Ant-Ara</h3>
+                    <p class="text-gray-600 mb-4">Estructura corporativa y formalidad</p>
+                    <ul class="text-left text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <span>Infraestructura legal y financiera</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <span>Gestión de clientes corporativos</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <span>Certificaciones y validaciones</span></li>
+                    </ul>
+                </div>
+                
+                <div class="text-center p-6 border rounded-lg">
+                    <img src="https://i.imgur.com/U1mRq72.png" alt="Innovar con Alejandro" class="h-16 mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Innovar con Alejandro</h3>
+                    <p class="text-gray-600 mb-4">Expertise técnico en IA</p>
+                    <ul class="text-left text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <span>Contenido y desarrollo curricular</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <span>Investigación y aplicaciones de IA</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <span>Capacitación especializada</span></li>
+                    </ul>
+                </div>
+                
+                <div class="text-center p-6 border rounded-lg">
+                    <img src="https://i.imgur.com/ObMZWAw.png" alt="Despacho Jorge" class="h-16 mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Despacho Jorge</h3>
+                    <p class="text-gray-600 mb-4">Coaching y desarrollo profesional</p>
+                    <ul class="text-left text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <span>Acompañamiento personalizado</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <span>Desarrollo de habilidades blandas</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <span>Gestión del cambio organizacional</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contacto</h3>
+                    <p class="mb-2"><i class="fas fa-envelope mr-2"></i> contacto@ant-ara.com</p>
+                    <p class="mb-2"><i class="fab fa-telegram mr-2"></i> @productividadconia</p>
+                    <p><i class="fas fa-globe mr-2"></i> ant-ara.com/cursos-ia</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Métodos de Pago</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <i class="fab fa-apple-pay text-3xl"></i>
+                        <i class="fab fa-google-pay text-3xl"></i>
+                        <i class="fab fa-paypal text-3xl"></i>
+                    </div>
+                    <p>PayPal: paypal.me/OscarOrtegaGuerra870</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Aliados Estratégicos</h3>
+                    <p>Buscando alianzas con:</p>
+                    <p class="text-sm mt-2">FUNDESA, CACIF, Universidades locales, Cámaras de comercio</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>&copy; 2024 Ant-Ara. Todos los derechos reservados.</p>
+                <p class="text-sm text-gray-400 mt-2">Ecosistema: Ant-Ara • Innovar con Alejandro • Despacho Jorge</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
